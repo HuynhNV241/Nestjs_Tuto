@@ -35,7 +35,8 @@ export class User {
   @Prop()
   codeId: string;
 
-  @Prop({ type: Date, required: true })
+  //@Prop({ type: Date, required: true })
+  @Prop({ type: Date })
   codeExpired: Date;
 }
 
